@@ -1,11 +1,6 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +30,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  padding: .7rem;
+}
+
+.nav-link{
+  margin: 0rem 1.5rem;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover{
+  color: orange;
+}
+
+nav .active{
+  color:yellow;
 }
